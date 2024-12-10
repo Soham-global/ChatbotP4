@@ -1,0 +1,32 @@
+[
+    {
+        "tag": "greeting",
+        "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good evening"],
+        "responses": ["Welcome to Apollo Hospital. How can I assist you?", "Hello! How can I help you today?"]
+    },
+    {
+        "tag": "appointment",
+        "patterns": ["I want to book an appointment", "Can I schedule a visit?", "Doctor appointment"],
+        "responses": ["Sure! Which doctor or department do you need an appointment with?", "I can help you schedule an appointment. Please provide more details."]
+    },
+    {
+        "tag": "doctor_inquiry",
+        "patterns": ["Who are the available doctors?", "Which doctors are available?", "Can I know the doctor's specialization?"],
+        "responses": ["Dr. Rajiv (Cardiologist), Dr. Srikant (Orthopedic), Dr. Satbir (General Practitioner) are available. Who would you like to consult?"]
+    },
+    {
+        "tag": "health_tips",
+        "patterns": ["Give me some health tips", "How to stay healthy?", "Tips for good health"],
+        "responses": ["Stay hydrated, exercise regularly, and maintain a balanced diet.", "Get regular check-ups and adequate sleep to stay healthy."]
+    },
+    {
+        "tag": "emergency_info",
+        "patterns": ["What to do in an emergency?", "Emergency contact", "Help in an emergency"],
+        "responses": ["In case of an emergency, call 911 or visit the emergency ward at Apollo Hospital immediately.", "Our emergency ward is open 24/7. Please contact us at 123-456-7890."]
+    },
+    {
+        "tag": "goodbye",
+        "patterns": ["Bye", "Goodbye", "Thank you, bye"],
+        "responses": ["Take care and stay healthy!", "Goodbye! We're here if you need us."]
+    }
+]
