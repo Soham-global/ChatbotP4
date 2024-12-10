@@ -20,7 +20,7 @@ This project implements a chatbot using Natural Language Processing (NLP) techni
 
 ### 1. Clone the Repository
 ```bash
-git clone [<repository-url>](https://github.com/Soham-global/ChatbotP4.git)
+git clone https://github.com/Soham-global/ChatbotP4.git
 cd <repository-directory>
 ```
 
