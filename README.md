@@ -19,42 +19,53 @@ This project implements a chatbot using Natural Language Processing (NLP) techni
 ## Installation
 
 ### 1. Clone the Repository
-
+```bash
 git clone <repository-url>
 cd <repository-directory>
+```
 
-2. Create a Virtual Environment (Optional but Recommended)
+### 2. Create a Virtual Environment (Optional but Recommended)
+```bash
 python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+```
 
-3. Install Required Packages
+### 3. Install Required Packages
+```bash
 pip install -r requirements.txt
+```
 
-4. Download NLTK Data
-Run the following Python code to download the required NLTK data:
+### 4. Download NLTK Data
+```bash
 import nltk
 nltk.download('punkt')
+```
 
-Usage
+### Usage
 To run the chatbot application, execute the following command:
+```bash
 streamlit run app.py
+```
 
 Once the application is running, you can interact with the chatbot through the web interface. Type your message in the input box and press Enter to see the chatbot's response.
 
-Intents Data
+### Intents Data
 The chatbot's behavior is defined by the intents.json file, which contains various tags, patterns, and responses. You can modify this file to add new intents or update existing ones.
 
-Conversation History
+### Conversation History
 The chatbot saves the conversation history in a CSV file (chat_log.csv). You can view past interactions by selecting the "Conversation History" option in the sidebar.
 
-Contributing
+### Contributing
 Contributions to this project are welcome! If you have suggestions for improvements or new features, feel free to open an issue or submit a pull request.
 
-Acknowledgments
+### Acknowledgments
 NLTK for natural language processing.
 Scikit-learn for machine learning algorithms.
 Streamlit for building the web interface.
 Apollo Hospital for inspiring the chatbot's use case.
+
+
+
 
 
 
